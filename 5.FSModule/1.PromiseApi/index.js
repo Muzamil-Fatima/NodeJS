@@ -1,4 +1,5 @@
 import * as fs from "fs/promises";
+
 // Get File information
 try {
     const info = await fs.stat("info.txt")

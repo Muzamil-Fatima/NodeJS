@@ -1,4 +1,5 @@
 import path from "path";
+
 console.log(path.basename("c:\\node.js\\app.html"))
 console.log(path.basename('c:\\node.js\\app.js', ".js"))
 console.log(path.dirname("c:\\node.js\\courses\\app.js"))
